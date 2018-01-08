@@ -4,6 +4,6 @@ README.md: guessinggame.sh
 	echo -n "### Date:" >> README.md
 	currentdate=$(date) 
 	echo -n "$date" >> README.md
-	echo -e "\n#### This course was provided by Sean Ross, PhD." >> README.md
+	echo -e "\n#### This course was provided by Sean Kross, PhD." >> README.md
 	wc -l guessinggame.sh >> README.md
 	echo -n -e "lines of bash coding is my last job. Thank you Sean " >> README.md
